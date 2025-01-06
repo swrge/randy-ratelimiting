@@ -7,11 +7,11 @@ homepage = "https://twilight.rs/"
 include.workspace = true
 keywords = ["discord", "discord-api", "twilight"]
 license.workspace = true
-name = "twilight-http-ratelimiting"
+name = "randy-ratelimiting"
 publish = true
-repository.workspace = true
+#repository.workspace = true
 rust-version.workspace = true
-version = "0.16.0-rc.1"
+version = "0.1.0"
 
 [dependencies]
 tokio = { version = "1", default-features = false, features = ["rt", "sync", "time"] }
